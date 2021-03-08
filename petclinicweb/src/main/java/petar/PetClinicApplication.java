@@ -1,4 +1,4 @@
-package petar.zecevic.petclinic;
+package petar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
