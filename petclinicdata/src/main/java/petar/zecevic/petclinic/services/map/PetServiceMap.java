@@ -1,10 +1,12 @@
 package petar.zecevic.petclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import petar.zecevic.petclinic.model.Pet;
 import petar.zecevic.petclinic.services.PetService;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
