@@ -1,11 +1,11 @@
 package petar.zecevic.petclinic.services.map;
 
 import petar.zecevic.petclinic.model.Pet;
-import petar.zecevic.petclinic.services.CrudService;
+import petar.zecevic.petclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
