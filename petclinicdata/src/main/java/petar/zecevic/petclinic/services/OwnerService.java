@@ -2,15 +2,9 @@ package petar.zecevic.petclinic.services;
 
 import petar.zecevic.petclinic.model.Owner;
 
-import java.util.Set;
 
-public interface OwnerService {
+public interface OwnerService extends CrudService<Owner, Long>{
 
     Owner findByLastName(String lastName);
 
-    Owner finById(Long id);
-
-    Owner save(Owner owner);
-
-    Set<Owner> findAll();
 }
